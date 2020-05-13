@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<ss:Workbook xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+    <ss:Styles>
+        <ss:Style ss:ID="1">
+            <ss:Font ss:Bold="1"/>
+        </ss:Style>
+    </ss:Styles>
+    <ss:Worksheet ss:Name="Sheet1">
+        <ss:Table>
+            <ss:Column ss:Width="80"/>
+            <ss:Column ss:Width="80"/>
+            <ss:Column ss:Width="80"/>
+            <ss:Row ss:StyleID="1">
+                <ss:Cell>
+                   <ss:Data ss:Type="String">First Name</ss:Data>
+                </ss:Cell>
+                <ss:Cell>
+                   <ss:Data ss:Type="String">Last Name</ss:Data>
+                </ss:Cell>
+                <ss:Cell>
+                   <ss:Data ss:Type="String">Phone Number</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            <ss:Row>
+                <ss:Cell>
+                   <ss:Data ss:Type="String">Nancy</ss:Data>
+                </ss:Cell>
+                <ss:Cell>
+                   <ss:Data ss:Type="String">Davolio</ss:Data>
+                </ss:Cell>
+                <ss:Cell>
+                   <ss:Data ss:Type="String">(206)555-9857</ss:Data>
+                </ss:Cell>
+            </ss:Row>
+            ...
+            </ss:Row>
+        </ss:Table>
+    </ss:Worksheet>
+</ss:Workbook>
